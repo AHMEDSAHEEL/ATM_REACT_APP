@@ -1,0 +1,137 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+}
+nav{
+  display: flex;
+  justify-content: start;
+  align-items:center;
+}
+nav .top{
+  font-size: 2rem;
+  color: white;
+  
+}
+.front{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30vh;
+  width: 100%;
+}
+.front button{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: rgb(222, 49, 49);
+  outline: 0;
+  border: 0;
+  width: 40vh;
+  margin: 1.5vh;
+  padding: 1rem;
+  border-radius: 1%;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+
+  animation: backgroundColorChange 8s infinite; 
+}
+
+ @keyframes backgroundColorChange {
+    0% {
+        background-color: red;
+    }
+    25% {
+        background-color: yellow;
+        color: black;
+    }
+    50% {
+        background-color: green;
+        color: black;
+        
+    }
+    75% {
+        background-color: blue;
+    }
+    100% {
+        background-color: red;
+    }
+} 
+a{
+  text-decoration: none;
+}
+button:hover{
+  
+  cursor: pointer;
+}
+
+form{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10vh;
+  color: white;
+  padding: 5vh;
+  box-shadow: 0 4px 8px rgba(207, 205, 205, 0.34);
+  text-transform: uppercase;
+}
+form input{
+  border-radius: 1%;
+  margin: 2vh;
+  padding: 1.2rem;
+  width: 40vh;
+  outline: 0;
+  border: 0;
+  border-radius: 1rem;
+  background: white;
+  font-size: 1.5rem;
+
+}
+form button{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: rgb(222, 49, 49);
+  outline: 0;
+  border: 0;
+  width: 35vh;
+  margin: 4vh;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+@media (max-width:510px) {
+  form button{
+    width: 20vh;
+    padding: 0.2rem;
+  }
+  form input{
+    width:25vh;
+    padding: 0.5rem;
+  }
+  
+}
+@media (max-width:350px) {
+  form button{
+    width: 15vh;
+    padding: 0.4rem;
+    font-size: 0.5rem;
+  }
+  form input{
+    width:20vh;
+    padding: 0.4rem;
+    font-size: 0.5rem;
+  }
+  
+}

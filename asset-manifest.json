@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ATM_REACT_APP/static/css/main.762d2384.css",
-    "main.js": "/ATM_REACT_APP/static/js/main.352e4195.js",
+    "main.js": "/ATM_REACT_APP/static/js/main.bbcaeb3a.js",
     "index.html": "/ATM_REACT_APP/index.html",
     "main.762d2384.css.map": "/ATM_REACT_APP/static/css/main.762d2384.css.map",
-    "main.352e4195.js.map": "/ATM_REACT_APP/static/js/main.352e4195.js.map"
+    "main.bbcaeb3a.js.map": "/ATM_REACT_APP/static/js/main.bbcaeb3a.js.map"
   },
   "entrypoints": [
     "static/css/main.762d2384.css",
-    "static/js/main.352e4195.js"
+    "static/js/main.bbcaeb3a.js"
   ]
 }
